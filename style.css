@@ -1,0 +1,19 @@
+.border {
+    border: 1px black solid;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 37px;
+}
+
+p {
+    font-size: 25px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
