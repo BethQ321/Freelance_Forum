@@ -38,7 +38,7 @@ const names = [
   function render() {
     const html = arrayOfFreelancers.map((freelancer) => {
         arrayOfPrices.push(freelancer.cost)
-        return `<div>${freelancer.name} ${freelancer.job} $${freelancer.cost}`        
+        return `<div>${freelancer.name} ${freelancer.job} $${freelancer.cost}</div>git`        
     })
     const totalCost = arrayOfPrices.reduce((acc, cost) => {
          return acc = acc + cost
